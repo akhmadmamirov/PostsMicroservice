@@ -25,7 +25,7 @@ app.post('/events', (req, res) => {
     res.status(200).send({});
 })
 
-app.get('/events', (req, res) => {
+app.get('/posts', (req, res) => {
     res.status(200).send(posts)
 })
 
